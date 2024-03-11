@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-dark: #020617;
+    --clr-light: #f1f5f9;
+}
+
+body {
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+}
+
+.dark-mode {
+    --clr-light: #020617;
+    --clr-dark: #f1f5f9;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--clr-dark);
+    /* top: 1.9rem; */
+    color: var(--clr-dark);
+    
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--clr-dark);
+}
+
+button {
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--clr-dark);
+}
+
+.moon {
+    display: flex;
+}
+
+.sunny {
+    display: flex;
+}
